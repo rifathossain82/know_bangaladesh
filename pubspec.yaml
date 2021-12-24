@@ -37,10 +37,24 @@ dependencies:
   animated_splash_screen: ^1.1.0
   google_fonts: ^2.1.0
   flutter_svg: ^1.0.0
+  webview_flutter: ^3.0.0
+  url_launcher: ^6.0.17
+  curved_navigation_bar: ^1.0.1
+  internet_connection_checker: ^0.0.1+3
+  overlay_support: ^1.2.1
+  share: ^2.0.4
+  rflutter_alert: ^2.0.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/bd.png"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -65,6 +79,7 @@ flutter:
     - images/map.jpg
     - images/bangladesh.png
     - images/bd.png
+    - images/Bangladesh_divisions_bn.svg
 
 #country info images
     - images/country_info/flag.png
@@ -83,6 +98,33 @@ flutter:
     - images/district/mymensing.png
     - images/district/rongpur.png
     - images/district/sylhet.jpg
+
+#national services images
+    - images/national_services/a2i.png
+    - images/national_services/all_seba.png
+    - images/national_services/application_new_birth_certificate.png
+    - images/national_services/bd_railway.png
+    - images/national_services/buy_railway_ticket.png
+    - images/national_services/dictionary.png
+    - images/national_services/ebook_bd.png
+    - images/national_services/forms_bd.png
+    - images/national_services/mukhtopath.png
+    - images/national_services/nid_services.png
+    - images/national_services/surokkha.png
+    - images/national_services/sebakunjjo.png
+    - images/national_services/uttoradhikar.png
+    - images/national_services/bc_logo.png
+    - images/national_services/bc_logo2.jpg
+    - images/national_services/bd_police.png
+    - images/national_services/rab.png
+
+
+#sim operator
+    - images/sim_operator/airtel.png
+    - images/sim_operator/bnglalink.png
+    - images/sim_operator/robi2.jpg
+    - images/sim_operator/teletalk_logo.jpg
+    - images/sim_operator/unnamed.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

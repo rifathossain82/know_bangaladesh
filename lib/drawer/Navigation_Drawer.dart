@@ -4,6 +4,7 @@ import 'package:know_bangladesh/constraints/strings.dart';
 import 'package:know_bangladesh/drawer/Navigation_DrawerItem.dart';
 import 'package:know_bangladesh/drawer/Navigation_Drawer_Header.dart';
 import 'package:know_bangladesh/page_routes.dart';
+import 'package:share/share.dart';
 
 class Navigation_Drawer extends StatelessWidget {
   const Navigation_Drawer({Key? key}) : super(key: key);
@@ -21,9 +22,11 @@ class Navigation_Drawer extends StatelessWidget {
           Navigation_DrawerItem(Icons.web, national_services, ()=>Navigator.pushReplacementNamed(context, Page_Routes.national_services)),
           Navigation_DrawerItem(Icons.phone, important_phone, ()=>Navigator.pushReplacementNamed(context, Page_Routes.important_phone)),
           Navigation_DrawerItem(Icons.sim_card, sim_operator, ()=>Navigator.pushReplacementNamed(context, Page_Routes.sim_operator)),
-          Navigation_DrawerItem(CupertinoIcons.news, news, ()=>Navigator.pushReplacementNamed(context, Page_Routes.sim_operator)),
+          Navigation_DrawerItem(Icons.phone_android, mobile_banking, ()=>Navigator.pushReplacementNamed(context, Page_Routes.mobile_banking)),
           Divider(),
-          Navigation_DrawerItem(Icons.share, share, (){}),
+          Navigation_DrawerItem(Icons.share, share, (){
+            Share.share('https://play.google.com/store/apps/details?id=com.know_bd.know_bangladesh',subject: 'Share this app with your friends.');
+          }),
           Navigation_DrawerItem(Icons.feedback_outlined, feedback, (){}),
           SizedBox(height: 10,)
         ],

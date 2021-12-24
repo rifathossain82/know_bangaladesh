@@ -10,6 +10,6 @@ String country_introduction='বিভাগ ও অন্যান্য';
 String national_services='জাতীয় সেবা সমূহ';
 String important_phone='গুরুত্বপূর্ণ ফোন নাম্বার';
 String sim_operator='সিম অপারেটর';
-String news='দেশীয় সংবাদপত্র';
+String mobile_banking='মোবাইল ব্যাংকিং';
 String share='শেয়ার';
 String feedback='মন্তব্য';
