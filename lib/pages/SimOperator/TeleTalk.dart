@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class TeleTalk extends StatelessWidget {
   List<String> title=[
@@ -86,12 +87,18 @@ class TeleTalk extends StatelessWidget {
         child: ListView.builder(
             itemCount: title.length,
             itemBuilder: (context,index){
-              return Card(
-                elevation: 0,
-                child: ListTile(
-                  title: Text(title[index],),
-                  subtitle: Text(dial[index]),
-                  trailing: Text(cost[index]),
+              return InkWell(
+                onLongPress: (){
+                  final data=ClipboardData(text: dial[index]);
+                  Clipboard.setData(data);
+                },
+                child: Card(
+                  elevation: 0,
+                  child: ListTile(
+                    title: Text(title[index],),
+                    subtitle: Text(dial[index]),
+                    trailing: Text(cost[index]),
+                  ),
                 ),
               );
             }

@@ -1,6 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:know_bangladesh/constraints/strings.dart';
 import 'package:know_bangladesh/drawer/Navigation_Drawer.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 
 class MobileBanking extends StatefulWidget {
@@ -82,12 +84,22 @@ class _MobileBankingState extends State<MobileBanking> {
           child: ListView.builder(
               itemCount: title.length,
               itemBuilder: (context,index){
-                return Card(
-                  elevation: 0,
-                  child: ListTile(
-                    title: Text(title[index],),
-                    subtitle: Text(dial[index]),
-                    trailing: Text(cost[index]),
+                return InkWell(
+                  splashColor: CupertinoColors.systemGreen,
+                  onTap: ()async{
+                    var url='tel:${dial[index]}';
+
+                    if(await canLaunch(url)){
+                    await launch(url);
+                    }
+                  },
+                  child: Card(
+                    elevation: 0,
+                    child: ListTile(
+                      title: Text(title[index],),
+                      subtitle: Text(dial[index]),
+                      trailing: Text(cost[index]),
+                    ),
                   ),
                 );
               }
