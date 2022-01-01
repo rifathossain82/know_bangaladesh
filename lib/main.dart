@@ -1,6 +1,7 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:know_bangladesh/page_routes.dart';
+import 'package:know_bangladesh/pages/Developer.dart';
 import 'package:know_bangladesh/pages/Home.dart';
 import 'package:know_bangladesh/pages/Important_phone.dart';
 import 'package:know_bangladesh/pages/SimOperator/Sim_oparator.dart';
@@ -34,6 +35,7 @@ class _MyAppState extends State<MyApp> {
           Page_Routes.important_phone:(context)=> Important_phone(),
           Page_Routes.country_intro:(context)=> Country_intro(),
           Page_Routes.mobile_banking:(context)=> MobileBanking(),
+          Page_Routes.developer_option:(context)=> Developer(),
         },
         theme: ThemeData(
             primaryColor: Colors.green,

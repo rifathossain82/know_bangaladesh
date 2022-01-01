@@ -1,3 +1,4 @@
+import 'package:know_bangladesh/pages/Developer.dart';
 import 'package:know_bangladesh/pages/Home.dart';
 import 'package:know_bangladesh/pages/Important_phone.dart';
 import 'package:know_bangladesh/pages/SimOperator/Sim_oparator.dart';
@@ -12,4 +13,5 @@ class Page_Routes{
   static const String important_phone=Important_phone.routeName;
   static const String country_intro=Country_intro.routeName;
   static const String mobile_banking=MobileBanking.routeName;
+  static const String developer_option=Developer.routeName;
 }

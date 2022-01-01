@@ -28,7 +28,10 @@ class Navigation_Drawer extends StatelessWidget {
             Share.share('https://play.google.com/store/apps/details?id=com.know_bd.know_bangladesh',subject: 'Share this app with your friends.');
           }),
           Navigation_DrawerItem(Icons.feedback_outlined, feedback, (){}),
-          SizedBox(height: 10,)
+          //SizedBox(height: 50,),
+          //Divider(),
+          Navigation_DrawerItem(Icons.developer_mode, developer, ()=>Navigator.pushReplacementNamed(context, Page_Routes.developer_option)),
+
         ],
       ),
     );

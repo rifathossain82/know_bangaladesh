@@ -44,6 +44,7 @@ dependencies:
   overlay_support: ^1.2.1
   share: ^2.0.4
   rflutter_alert: ^2.0.4
+  animated_text_kit: ^4.2.1
 
 dev_dependencies:
   flutter_test:
@@ -80,6 +81,8 @@ flutter:
     - images/bangladesh.png
     - images/bd.png
     - images/Bangladesh_divisions_bn.svg
+    - images/my_pic.jpg
+    - images/Sakib_vai.jpg
 
 #country info images
     - images/country_info/flag.png

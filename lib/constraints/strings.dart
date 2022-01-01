@@ -13,3 +13,4 @@ String sim_operator='সিম অপারেটর';
 String mobile_banking='মোবাইল ব্যাংকিং';
 String share='শেয়ার';
 String feedback='মন্তব্য';
+String developer='ডেভেলপার';
