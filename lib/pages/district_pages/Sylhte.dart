@@ -17,8 +17,6 @@ class Sylhet extends StatelessWidget {
             },
             icon: Icon(Icons.arrow_back_ios)
         ),
-        actions: [
-        ],
       ),
       body: SingleChildScrollView(
         child: Column(

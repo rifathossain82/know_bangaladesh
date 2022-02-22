@@ -10,9 +10,6 @@ class Developer extends StatelessWidget {
 
   static const String routeName='/developer';
 
-
-
-
   Future<bool?> ShowWarning(BuildContext context)=>showDialog(
       context: context,
       builder: (context){

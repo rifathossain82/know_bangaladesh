@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 
 class Borishal extends StatelessWidget {
 
-
   final title_style=GoogleFonts.antic(fontWeight: FontWeight.bold,fontSize: 26,);
   final des_style=GoogleFonts.michroma();
   @override
@@ -18,8 +17,6 @@ class Borishal extends StatelessWidget {
             },
             icon: Icon(Icons.arrow_back_ios)
         ),
-        actions: [
-        ],
       ),
       body: SingleChildScrollView(
         child: Column(

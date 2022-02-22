@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:know_bangladesh/constraints/strings.dart';
 import 'package:know_bangladesh/drawer/Navigation_Drawer.dart';
 import 'package:know_bangladesh/pages/district_pages/Borishal.dart';
 import 'package:know_bangladesh/pages/district_pages/Dhaka.dart';

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:know_bangladesh/constraints/strings.dart';
 import 'package:know_bangladesh/drawer/Navigation_Drawer.dart';
 import 'package:know_bangladesh/pages/SimOperator/Airtel.dart';
 import 'package:know_bangladesh/pages/SimOperator/BL.dart';

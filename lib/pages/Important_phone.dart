@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:know_bangladesh/constraints/strings.dart';
 import 'package:know_bangladesh/drawer/Navigation_Drawer.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -10,12 +9,8 @@ class Important_phone extends StatefulWidget {
   @override
   _Important_phoneState createState() => _Important_phoneState();
 
-
   static const String routeName='/important_phone';
-
-
 }
-
 
 class _Important_phoneState extends State<Important_phone> {
 

@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:know_bangladesh/constraints/strings.dart';
 import 'package:know_bangladesh/drawer/Navigation_Drawer.dart';
 import 'package:know_bangladesh/pages/National_services/WebPage.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:overlay_support/overlay_support.dart';
-
 
 class National_Services extends StatefulWidget {
   const National_Services({Key? key}) : super(key: key);
@@ -95,11 +93,6 @@ class _National_ServicesState extends State<National_Services> {
     'https://bangladesh.gov.bd/site/view/job_category/%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF', //niyog biggopti
     'https://www.rab.gov.bd/contact-us', //
     'https://www.police.gov.bd/en/unitContact', //
-
-
-
-
-
 
   ];
 

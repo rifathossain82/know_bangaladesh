@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
           Page_Routes.developer_option:(context)=> Developer(),
         },
         theme: ThemeData(
-            primaryColor: Colors.green,
+          primaryColor: Colors.green,
           primarySwatch: Colors.green
         ),
         title: app_name,

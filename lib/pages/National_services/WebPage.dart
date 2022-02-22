@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebPage extends StatefulWidget {
@@ -61,6 +60,7 @@ class _WebPageState extends State<WebPage> {
       }),
     );
   }
+
   Widget Loader(){
     return CircularProgressIndicator();
   }
@@ -71,18 +71,3 @@ class _WebPageState extends State<WebPage> {
 void wait()async{
   await Future.delayed(Duration(seconds: 200));
 }
-
-
-
-// _urlLauncher()async{
-//   var url='https://www.youtube.com/watch?v=KktvkHovfmg';
-//   if(await canLaunch(url)){
-//     await launch(
-//       url,
-//       forceSafariVC: false,
-//       forceWebView: false,
-//       headers: <String,String>{'my_header_key':'my_header_value'},
-//       enableJavaScript: true,
-//     );
-//   }
-// }

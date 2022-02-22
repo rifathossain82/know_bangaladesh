@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:know_bangladesh/constraints/strings.dart';
 
 class Dhaka extends StatelessWidget {
 
@@ -19,8 +17,6 @@ class Dhaka extends StatelessWidget {
           },
             icon: Icon(Icons.arrow_back_ios)
         ),
-        actions: [
-        ],
       ),
       body: SingleChildScrollView(
         child: Column(
